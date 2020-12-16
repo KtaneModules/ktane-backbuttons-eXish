@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: backButtonsModule
+  title: Back Buttons
+  author: eXish
+  description: 'Go through each button''s rule to determine if it needs to be pressed.
+    However, if a keyword is encountered you may have to go back and press some more
+    buttons.
+
+
+    HTML: https://ktane.timwi.de/HTML/Back%20Buttons.html
+
+    PDF: https://ktane.timwi.de/PDF/Back%20Buttons.pdf
+
+
+    Back Buttons (backButtonsModule) v1.0.0
+
+    Module and Concept by eXish
+
+    Twitch Plays supported'
+  version: 1.0.0
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: be9f7c70638bc004f9cfb647183a4728, type: 3}
