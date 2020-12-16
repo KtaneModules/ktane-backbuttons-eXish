@@ -38,11 +38,11 @@ public class BackButtonsScript : MonoBehaviour {
     void Start () {
         display.text = "";
         RandomizeButtons();
-        DeterminePresses();
     }
 
     void OnActivate()
     {
+        DeterminePresses();
         display.text = "0";
         activated = true;
     }
@@ -160,9 +160,12 @@ public class BackButtonsScript : MonoBehaviour {
                     return true;
                 break;
             case 7:
+                int ct = 0;
                 foreach (string mod in bomb.GetModuleNames())
                 {
-                    if (mod.ToLower().Replace(" ", "").Contains("back"))
+                    if (mod.Equals("Back Buttons") && ct == 0)
+                        ct++;
+                    else if (mod.ToLower().Replace(" ", "").Contains("back"))
                         return true;
                 }
                 break;
@@ -179,7 +182,7 @@ public class BackButtonsScript : MonoBehaviour {
                     return true;
                 break;
             case 11:
-                int ct = 0;
+                ct = 0;
                 foreach (string text in buttonTexts)
                 {
                     if (buttonTexts[11] == text)
