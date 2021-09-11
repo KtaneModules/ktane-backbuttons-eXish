@@ -24,11 +24,11 @@ MonoBehaviour:
     PDF: https://ktane.timwi.de/PDF/Back%20Buttons.pdf
 
 
-    Back Buttons (backButtonsModule) v1.0.1
+    Back Buttons (backButtonsModule) v1.0.2
 
     Module and Concept by eXish
 
     Twitch Plays supported'
-  version: 1.0.1
+  version: 1.0.2
   outputFolder: build
   previewImage: {fileID: 2800000, guid: be9f7c70638bc004f9cfb647183a4728, type: 3}
